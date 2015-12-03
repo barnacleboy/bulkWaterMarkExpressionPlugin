@@ -16,5 +16,12 @@ Installation
 --------
 Just put the built assembly and the data file into the bin/plugins folder of your bulkWaterMark installation.
 
+How to use it in bulkWaterMark
+--------
+Just open the Demo.bwm profile in bulkWaterMark. This watermark profile contains a text layer with the expression `{Xml.Xml}`. As soon as you watermark an image that is called 01.jpg or 02.jpg, the text layer then displays the text that I've defined in the xml file. Change the file names in the xml to test the plug-in with other images.
+
+What's up next
+--------
+I will contact the devs soon for support since I've found some other settings like ApiKey in the PlugInInfoAttribute class. Would be nice if this plug-in could be extended to that it can fetch a data source via ODBC, define what should be selected and used in bulkWaterMark via a nice dialog within the profile editor.
 
 Hope this is useful! I really hope this API will get extended or documented well soon, because I think this bulkWaterMark app has some potential for using it in websites or for other data-driven image generation.
