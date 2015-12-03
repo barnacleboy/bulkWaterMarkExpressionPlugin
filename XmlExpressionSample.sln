@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlExpressionSample", "XmlExpressionSample.csproj", "{9021260A-0CFA-49A4-BD0D-73A23AF9900B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9021260A-0CFA-49A4-BD0D-73A23AF9900B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9021260A-0CFA-49A4-BD0D-73A23AF9900B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9021260A-0CFA-49A4-BD0D-73A23AF9900B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9021260A-0CFA-49A4-BD0D-73A23AF9900B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

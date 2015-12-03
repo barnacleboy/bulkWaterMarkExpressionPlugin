@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<images>
+  <image file="01.jpg">This is a description that I want to use in a bulkWaterMark text layer.</image>
+  <image file="02.jpg">This is another description that I want to use in a bulkWaterMark text layer.</image>
+</images>

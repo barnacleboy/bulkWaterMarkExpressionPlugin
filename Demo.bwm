@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bulkWaterMark.Profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GrfXVersion="1.0.0.0" Version="1.0.1363.248" EmbedLayerResources="true" ImageRenderingQuality="AntiAlias" TextRenderingQuality="AntiAlias">
+  <Preview>iVBORw0KGgoAAAANSUhEUgAAADIAAAAFCAYAAAAHQL+kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF+SURBVDhPXdPZK4VBGIDxOcgeckEUWa+Ikn3Pvu9bZCeUbDfEDf+55zln5iRv/Zo53zff+852ArGMZjtEcWyNytgahahGUfZXCPWxrUFZrpuNCpTkuvlIvwtg3zHW60Q5jEa05LqhCtYzamObYg7W832dD/7GKE4xiD70oAsHmMcMdnGMdTj+BPvwfQfGsINNrKAdI/D5UGTuRZjPXLLGNm5wBnNOYi2awnTkIgZgDr/phXP23RKyRZ3YEZyEJzSLW3xhAxa8xDVM6MevmMAwPvEEv3OiFrjCG1I+F72KOzzAevf4gLkf8YIF+O0zXLyL/IGb6Vzf4Sa0ws37hvMKTXBCrsodtHVX9uDKHbwFd+wQnpaTv4DjvSLphCzsRMbhKbur3eiHi/HEzuGi3G371jGP463njfDkreuGOGkX4am2wZxupjlcsHU9/Xx4hzPw/tmXfZ95V73P9g3bNCZF6qfvU5vC3/+fpXEp/uawRqrt/yG9S3Mohe8aQgiZXzpKLuijKZE4AAAAAElFTkSuQmCC</Preview>
+  <LayerGroups>
+    <LayerGroup HorizontalPosition="28" VerticalPosition="34" Name="Layer Group1" IsVisible="true">
+      <Settings xsi:type="WatermarkSettings" AutoScale="true" Mode="Corners" HorizontalOffset="10" VerticalOffset="10" HorizontalTileStart="10" VerticalTileStart="10" Angle="0" RotateWithinMargin="true" TopLeft="true" TopCenter="false" TopRight="false" MiddleLeft="false" MiddleCenter="false" MiddleRight="false" BottomLeft="false" BottomCenter="false" BottomRight="false" TileSize="100" Transparency="255" />
+      <Layers>
+        <Layer xsi:type="TextLayer" HorizontalPosition="28" VerticalPosition="34" Name="Text Layer1" Width="142.832657" Height="17.3854141" WidthSizeMode="Pixel" HeightSizeMode="Pixel" AutoSize="true" Transparency="255" Angle="0" IsVisible="true" FontName="Arial" FontSize="11" Bold="false" Italic="false" Underline="false" Strikeout="false" Alignment="Near">
+          <ImageFX />
+          <Text>{Xml.Xml}Text Layer1</Text>
+          <Brush Angle="0" Color="ArgbColor:255:0:0:0" BrushType="Solid">
+            <GradientStops />
+          </Brush>
+        </Layer>
+      </Layers>
+    </LayerGroup>
+  </LayerGroups>
+  <OutputSettings SizeMode="Original" DoNotEnlargeSmallerImages="true" DoNotShrinkBiggerImages="false" Width="800" Height="600" Resolution="72" IsOutputSizeProportional="true" OutputWriter="JpegOutputWriter" OutputPath="" FileMode="Prompt" AutoRotateOnExifData="true" RenameMask="" RenameStartIndex="1" KeepExifData="false">
+    <OutputWriterSettings xsi:type="JpegOutputWriterSettings">
+      <Compression>80</Compression>
+    </OutputWriterSettings>
+  </OutputSettings>
+</bulkWaterMark.Profile>
