@@ -1,7 +1,9 @@
 bulkWaterMark Expression Plug-in Test
 ========
-This is a feasibility study for writing an expression plug-in for [bulkWaterMark](http://www.bulkWaterMark.com).
-bulkWaterMark is a freeware batch watermarking tool for protecting photos. There are also paid versions of bulkWaterMark, but the free one supports also this plug-in implementation. I needed a solution for watermarking 10,000+ pictures with a few properties per image file name that was saved in an xml. Therefore I have searched the internet for solutions and found bulkWaterMark and its expression features. Unfortunately the plug-in interface or SDK for bulkWaterMark is not documented (yet?), therefore I trialed and errored and put together a solution to get the xml data into my image watermarks.
+This is a feasibility study for writing an expression plug-in for [bulkWaterMark](http://www.pmlabs-apps.com/bulkwatermark/) (or [German](http://www.pmlabs.de/bulkwatermark/)).
+bulkWaterMark is a freeware to watermark photos in batch. There are also paid versions of bulkWaterMark, but the free one supports also this plug-in implementation too. I needed a solution to batch watermark 10,000+ pictures with a few properties per image file name that was saved in an xml. Therefore I have searched the internet for solutions and found bulkWaterMark and its expression features. With expressions you can put dynamic data into text watermarks to watermark photos with Exif tags like GPS coordinates or file creation time.
+
+Unfortunately the plug-in interface or SDK for bulkWaterMark is not documented (yet?), therefore I trialed and errored and put together a solution to get the xml data into my image watermarks.
 
 How to write plug-ins for bulkWaterMark
 --------
@@ -20,8 +22,14 @@ How to use it in bulkWaterMark
 --------
 Just open the Demo.bwm profile in bulkWaterMark. This watermark profile contains a text layer with the expression `{Xml.Xml}`. As soon as you watermark an image that is called 01.jpg or 02.jpg, the text layer then displays the text that I've defined in the xml file. Change the file names in the xml to test the plug-in with other images.
 
+Problems
+--------
+I found out that ReSharper does not work for the PMlabs.GrfX.* assemblies. Seems like obfuscation is destroying the metadata of the .NET assemblies of the app.
+
 What's up next
 --------
-I will contact the devs soon for support since I've found some other settings like ApiKey in the PlugInInfoAttribute class. Would be nice if this plug-in could be extended to that it can fetch a data source via ODBC, define what should be selected and used in bulkWaterMark via a nice dialog within the profile editor.
+I will contact the devs soon for support since I've found some other settings like ApiKey in the PlugInInfoAttribute class. Would be nice if this plug-in could be extended that it can fetch a data source via ODBC, define what should be selected and used in bulkWaterMark via a nice dialog within the profile editor.
 
-Hope this is useful! I really hope this API will get extended or documented well soon, because I think this bulkWaterMark app has some potential for using it in websites or for other data-driven image generation.
+Update Februar 2016: API will still take a while, since they are building they want to release some plug-ins first to test out the interfaces and possibilities of the framework. They are ok with API use, but do not support it at the moment.
+
+Hope this is useful! I really wish this API will get extended or documented well soon, because I think this bulkWaterMark app has some potential for using it in websites or for other data-driven image generation.
